@@ -1,13 +1,12 @@
 # conversion
 
 **Tasks**
-- The first step is to load the data and make sure that everything was considered correctly: look at the columns, the size, the presence of missing values (if any, delete). Also study the types of variables.
-- Plot the distribution of the number of released games by year and output the descriptive characteristics of the Year variable.
-- Which platforms have the most releases?
-- Games of which publishers (Publisher) are most often found in the dataset?
-- Which region has the highest median sales of Nintendo games? (Regions: NA, EU, JP, Other)
-- Explore the sales of Nintendo games in Japan by genre. Look at the median, mean, interquartile range.
-- Visualize the evolution of global sales (Global_Sales) year by year for Nintendo games in the following genres: Fighting, Simulation, Platform, Racing, Sports.
+- Plot the distribution of the number of impressions (Impressions) for each ad by taking the logarithm of the values.
+- Create a new column with CTR. Look at descriptive statistics and distribution.
+- Analyze CTR by ad campaign.
+- Calculate the user's cost per ad click (CPC). Examine the resulting values using measures of central tendency and measures of variability.
+- Visualize the CPC by gender of the users who were shown ads.
+- Calculate the conversion from click to purchase.
 
 **Data Description**
 - ad_id - identifier of the ad (advertising)
